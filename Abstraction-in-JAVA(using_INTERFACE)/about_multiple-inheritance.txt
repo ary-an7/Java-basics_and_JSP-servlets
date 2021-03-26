@@ -1,0 +1,11 @@
+Confusing multiple interfaces as Multiple inheritance:-- 
+
+
+Some people (and textbooks) have said that allowing classes to implement multiple interfaces is the same thing as multiple inheritance
+
+This is NOT true.  When you implement an interface:
+The implementing class does not inherit instance variables
+The implementing class does not inherit methods (none are defined)
+The Implementing class does not inherit associations
+
+Implementation of interfaces is not inheritance.  An interface defines a list of methods which must be implemented.
